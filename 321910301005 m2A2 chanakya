@@ -1,0 +1,39 @@
+a1=int(input())
+a2=int(input())
+if a1+a2>5 : print ('sum is>5')
+elif   a1+a2<5 :print ('sum is<5')
+else :print ('sum is= to 5')
+
+
+
+
+Mat=int(input('marks'))
+if Mat>35:print('greater than pass marks')
+elif Mat<35:print('less than pass marks')
+
+
+
+a1=int(input())
+a2=int(input())
+a3=int(input())
+if a1>a2 and a1>a3 : print('a1 is greater',a1)
+elif a2>a3 : print('a2 is greater')
+else : print('a3 is greater')
+
+
+
+a1=int(input())
+a2=int(input())
+if a1==a2  : print ('they are equal')
+else :print ('they are not equal')
+
+
+
+
+a1=int(input())
+a2=int(input())
+a3=int(input())
+if a1==a2==a3  : print ('all are equal')
+elif a1==a2 or a2==a3 or a1==a3 : print ('any two of them are equal')
+else :print ('none of them r equal')
+
